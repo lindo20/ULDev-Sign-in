@@ -1,0 +1,88 @@
+
+body 
+{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+    background-color: #333;
+    background-image: url('images/hero-img.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+header
+ {
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px 0;
+    color: #00BFFF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.container
+ {
+    padding: 20px;
+    background: rgba(34, 34, 34, 0.9);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    max-width: 700px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+h1
+ {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #00BFFF;
+}
+
+p
+ {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #f0f0f0;
+}
+
+.button
+ {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #00BFFF;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.button:hover
+ {
+    background-color: #007ACC;
+    transform: scale(1.05);
+}
+
+.countdown
+ {
+    font-size: 20px;
+    font-weight: bold;
+    color: #00BFFF;
+    margin-bottom: 20px;
+}
+
+.geekulcha,p3
+{
+    font-size: 16px;
+    color: black;
+    margin-top: 20px;
+    line-height: 1.6;
+}
